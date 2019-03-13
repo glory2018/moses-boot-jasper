@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../static/bootstrap-4.3.1/css/bootstrap.min.css">
+    <script src="../../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../../static/js/popper.min.js"></script>
+    <script src="../../static/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#bootstrap" role="tab" aria-controls="bootstrap"
+           aria-selected="true">bootstrap</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product"
+           aria-selected="false">product</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="crosstab-tab" data-toggle="tab" href="#crosstab" role="tab" aria-controls="crosstab"
+           aria-selected="false">crosstab</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="echarts-tab" data-toggle="tab" href="#echarts" role="tab" aria-controls="echarts"
+           aria-selected="false">echarts</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="jasper-tab" data-toggle="tab" href="#jasper" role="tab" aria-controls="jasper"
+           aria-selected="false">jasper</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="bootstrap" role="tabpanel" aria-labelledby="bootstrap-tab">
+        <h1>Hello, world!</h1>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tab-pane fade" id="product" role="tabpanel" aria-labelledby="profile-tab">
+        <iframe src="http://localhost:8889/product?whereSql=cost<15&inline=true" width="800" height="600"></iframe>
+    </div>
+    <div class="tab-pane fade" id="crosstab" role="tabpanel" aria-labelledby="crosstab-tab">
+        <iframe src="http://localhost:8889/crosstab?type=pdf&inline=true" width="800" height="600"></iframe>
+    </div>
+    <div class="tab-pane fade" id="echarts" role="tabpanel" aria-labelledby="echarts-tab">
+        <iframe src="echarts.html" width="800" height="600"></iframe>
+    </div>
+    <div class="tab-pane fade" id="jasper" role="tabpanel" aria-labelledby="jasper-tab">
+        <iframe src="" width="800" height="600"></iframe>
+    </div>
+</div>
+</body>
+</html>
