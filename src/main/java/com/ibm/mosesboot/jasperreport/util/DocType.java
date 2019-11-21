@@ -3,7 +3,7 @@
  * Copyright (C) 2018 IBM All rights reserved.
  *
  ********* K*I*N*G ********** B*A*C*K *******/
-package com.ibm.mosesboot.report.util;
+package com.ibm.mosesboot.jasperreport.util;
 
 /**
  * @author Moses *

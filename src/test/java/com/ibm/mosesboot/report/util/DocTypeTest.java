@@ -5,6 +5,8 @@
  ********* K*I*N*G ********** B*A*C*K *******/
 package com.ibm.mosesboot.report.util;
 
+import com.ibm.mosesboot.jasperreport.util.DocType;
+
 /**
  * @author Moses *
  * @Date 2019/3/12 9:33

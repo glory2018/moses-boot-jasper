@@ -4,7 +4,7 @@
  * 
  ********** K*I*N*G ********** B*A*C*K
  ***********/
-package com.ibm.mosesboot.report.util;
+package com.ibm.mosesboot.jasperreport.util;
 
 import java.io.File;
 

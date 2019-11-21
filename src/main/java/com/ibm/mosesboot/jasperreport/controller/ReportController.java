@@ -3,13 +3,13 @@
  * Copyright (C) 2019 IBM All rights reserved.
  *
  ********* K*I*N*G ********** B*A*C*K *******/
-package com.ibm.mosesboot.report.controller;
+package com.ibm.mosesboot.jasperreport.controller;
 /**
  * @author Moses *
  * @Date 2019/1/2 23:34
  */
 
-import com.ibm.mosesboot.report.util.JasperHelper;
+import com.ibm.mosesboot.jasperreport.util.JasperHelper;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
